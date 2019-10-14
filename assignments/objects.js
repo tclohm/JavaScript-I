@@ -77,7 +77,7 @@ console.log(antonietta.gender);
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
 
-kennan.speak = function() { return `Hello, my name is ${kennan.name}`; };
+kennan.speak = function() { return `Hello, my name is ${this.name}`; };
 console.log(kennan.speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
